@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>PRODUTOS</projectKey>
+    <exportDate>2025-06-22 19:01:42 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="244212980" key="PRODUTOS-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Geovane Junior</createdBy>
+            <createdOn>2025-06-22 18:42:50 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Sprint 1 - Administrador tenta cadastrar com campos inválidos]]></name>
+            <objective><![CDATA[validar o formul&aacute;rio de inscri&ccedil;&atilde;o]]></objective>
+            <owner>712020:49f10b4a-0003-481c-a3f7-3023d5d8b9d5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Navegar at&eacute; a tela de cadastro de administrador.]]></description>
+                        <expectedResult><![CDATA[A tela de cadastro deve ser exibida com os campos obrigat&oacute;rios vis&iacute;veis (ex: nome, e-mail, senha...).]]></expectedResult>
+                        <testData><![CDATA[]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[<u>Deixar campos obrigat&oacute;rios em branco ou inserir dados inv&aacute;lidos</u>]]></description>
+                        <expectedResult><![CDATA[O sistema n&atilde;o valida os campos que s&atilde;o preenchidos incorretamente ou ficam vazios, e exibe mensagens de erro espec&iacute;ficas pr&oacute;ximas aos campos inv&aacute;lidos.]]></expectedResult>
+                        <testData><![CDATA[&quot;entrada&quot;: {<br id="isPasted">&nbsp; &nbsp; &nbsp; &quot;nome&quot;: &quot;Administrador Teste&quot;,<br>&nbsp; &nbsp; &nbsp; &quot;email&quot;: &quot;admin.email.com&quot;,<br>&nbsp; &nbsp; &nbsp; &quot;senha&quot;: &quot;123&quot;<br>&nbsp; &nbsp; }]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Clicar no bot&atilde;o &quot;Salvar&quot;]]></description>
+                        <expectedResult><![CDATA[O sistema deve validar os dados do formul&aacute;rio.]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

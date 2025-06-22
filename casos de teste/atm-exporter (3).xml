@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>PRODUTOS</projectKey>
+    <exportDate>2025-06-22 19:01:51 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="244212969" key="PRODUTOS-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Geovane Junior</createdBy>
+            <createdOn>2025-06-22 18:36:31 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Sprint 1 - Administrador tenta cadastrar com e-mail já existente]]></name>
+            <objective><![CDATA[N&atilde;o deixar o mesmo email ter mais de uma conta no sistema.]]></objective>
+            <owner>712020:49f10b4a-0003-481c-a3f7-3023d5d8b9d5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Giveno o administrador está na tela de cadastro de usuários
+And  informou um e-mail que já existe no sistema
+When clicar em "Salvar"
+Then deverá ser exibida a mensagem "E-mail já cadastrado no sistema"]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

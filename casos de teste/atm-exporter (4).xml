@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>PRODUTOS</projectKey>
+    <exportDate>2025-06-22 19:01:59 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="244212999" key="PRODUTOS-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Geovane Junior</createdBy>
+            <createdOn>2025-06-22 18:55:19 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Sprint 1 - Erro interno ao tentar cadastrar novo administrador]]></name>
+            <objective><![CDATA[em caso de erro ao cadastrar o admin direcionar ele para um novo cadastro]]></objective>
+            <owner>712020:49f10b4a-0003-481c-a3f7-3023d5d8b9d5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[o administrador est&aacute; na tela de cadastro de usu&aacute;rios e preencheu corretamente todos os campos obrigat&oacute;rios, quando clicar em &quot;Salvar&quot;<br><strong></strong>ocorre uma falha no servidor ou no banco de dados]]></description>
+                        <expectedResult><![CDATA[o sistema deve exibir uma mensagem de erro como &quot;Erro ao salvar administrador. Tente novamente mais tarde&quot; e n&atilde;o deve salvar nenhum dado incompleto ou corrompido no sistema]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

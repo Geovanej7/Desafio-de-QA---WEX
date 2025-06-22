@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>PRODUTOS</projectKey>
+    <exportDate>2025-06-22 19:01:19 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="244212929" key="PRODUTOS-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Geovane Junior</createdBy>
+            <createdOn>2025-06-22 18:29:32 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Sprint 1 - administrador sem cadastro tenta criar uma conta]]></name>
+            <objective><![CDATA[Criar uma conta de admin e dar acesso ai sistema ao usuario]]></objective>
+            <owner>712020:49f10b4a-0003-481c-a3f7-3023d5d8b9d5</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given o administrador está na tela de cadastro de usuários
+And  preencheu corretamente os campos de nome, e-mail e senha
+When clicar em "Salvar"
+Then o sistema deve exibir uma mensagem “Administrador cadastrado com sucesso”]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
